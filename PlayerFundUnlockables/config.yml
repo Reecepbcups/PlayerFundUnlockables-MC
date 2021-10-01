@@ -1,0 +1,48 @@
+MAIN:
+  - "&b&l<&f&l*&b&l> &b&lOne&f&lBlock &b&lFunds &b&l<&f&l*&b&l>"
+  - "&7Add $ to the /fund and unlock new content for your player with &f&n/fund deposit <amount>"
+  - "&7"
+  
+Unlockables:
+  level1:
+    amount: 50000
+    message: "&fCobble Generator Shop &7[%percent%%] &b$%amount%"
+    reward-commands:
+      - 'lp user %player% permission set shopguiplus.shops.ores true server=oneblock'
+    complete-message:
+      - ''
+      - '&b&l(!) &fYou have unlocked the &bCobble Generator shop&f via /funds!'
+      - ''
+      
+      
+  level2:
+    amount: 250000
+    blocked-commands: 
+     - 'somecommandhere'
+    reward-commands:
+      - 'lp user %player% permission set shopguiplus.shops.autofarming true server=oneblock'
+    message: "&fAutomatic Farming Shop &7[%percent%%] &b$%amount%"
+    complete-message:
+      - ''
+      - '&b&l(!) &fYou have all unlocked the &bAutomatic Farming Shop&f via /funds!'
+      - ''
+      
+  level3:
+    amount: 5000000
+    reward-commands:
+      - 'lp user %player% permission set shopguiplus.shops.spawner true server=oneblock'
+    message: "&fSpawner Shop &7[%percent%%] &b$%amount%"
+    complete-message:
+      - ''
+      - '&b&l(!) &fYou have all unlocked the &bSpawner Shop&f via /funds!'
+      - ''
+      
+  level4:
+    amount: 20000000
+    reward-commands:
+      - 'lp user %player% permission set shopguiplus.shops.customspawner true server=oneblock'
+    message: "&fSpawner Shop Teir 2 &7[%percent%%] &b$%amount%"
+    complete-message:
+      - ''
+      - '&b&l(!) &fYou have all unlocked the &bSpawner Shop Teir 2&f via /funds!'
+      - ''
