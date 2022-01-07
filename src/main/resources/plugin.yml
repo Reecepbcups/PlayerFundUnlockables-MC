@@ -1,0 +1,9 @@
+name: "PlayerFundUnlockables"
+main: "sh.reece.playerfunds.PlayerFunds"
+version: "1.0.0"
+author: "Reecepbcups"
+depend: ["Vault"]
+commands:
+  fund:
+    aliases: [funds]
+    description: "Main command to deposit funds to the area for a player"
